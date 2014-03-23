@@ -364,6 +364,13 @@
 (setq default-frame-alist 
 '((height . 33) (width . 158) (menu-bar-lines . 20) (tool-bar-lines . 0))))
 
+;; Enable haml model
+(require 'haml-mode)
+(add-hook 'haml-mode-hook
+               (lambda ()
+                 (setq indent-tabs-mode nil)
+                 (define-key haml-mode-map "\C-m" 'newline-and-indent)))
+
 ;; ;;;;;;;;;;;;我的 Common Lisp;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; (add-to-list 'load-path "~/lisp/src/slime/")
 ;; (add-to-list 'load-path "~/lisp/src/slime/contrib")
