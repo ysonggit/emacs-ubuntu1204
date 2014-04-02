@@ -4,7 +4,7 @@
 ;; (kill-this-buffer);关闭customize窗口 
 (setq default-major-mode 'text-mode);一打开就起用 text 模式
 ;; ;自定义按键 
-;; (global-set-key [f1] 'shell);F1进入Shell
+(global-set-key [f1] 'shell);F1进入Shell
 ;; ;;目的是开一个shell的小buffer，用于更方便地测试程序(也就是运行程序了)，我经常会用到。
 ;; ;;f1就是另开一个buffer然后打开shell，C-f1则是在当前的buffer打开shell
 ;; (global-set-key [C-f5] 'previous-error)
@@ -24,6 +24,13 @@
 	     '("\\.\\(?:gemspec\\|irbrc\\|gemrc\\|rake\\|rb\\|ru\\|thor\\)\\'" . ruby-mode))
 (add-to-list 'auto-mode-alist
 	     '("\\(Capfile\\|Gemfile\\(?:\\.[a-zA-Z0-9._-]+\\)?\\|[rR]akefile\\)\\'" . ruby-mode))
+
+;; python mode
+(autoload 'python-mode "python-mode" "Python Mode." t)
+(add-to-list 'auto-mode-alist '("\\.py\\'" . python-mode))
+(add-to-list 'interpreter-mode-alist '("python" . python-mode))
+(load-file "~/lisp/epy/epy-init.el")
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Load Cedet ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; ;;加载cedet
@@ -232,7 +239,25 @@
 (define-key c-mode-base-map [(return)] 'newline-and-indent)  
 (define-key c-mode-base-map [(meta \`)] 'c-indent-command) 
 
- 
+(defun indent-buffer ()
+  "Indent the currently visited buffer."
+  (interactive)
+  (indent-region (point-min) (point-max)))
+
+(defun indent-region-or-buffer ()
+  "Indent a region if selected, otherwise the whole buffer."
+  (interactive)
+  (save-excursion
+    (if (region-active-p)
+        (progn
+          (indent-region (region-beginning) (region-end))
+          (message "Indented selected region."))
+      (progn
+        (indent-buffer)
+        (message "Indented buffer.")))))
+
+(global-set-key (kbd "C-M-\\") 'indent-region-or-buffer) 
+
 ;; ;;能把一个代码块缩起来，需要的时候再展开
 ;; ;;  M-x     hs-minor-mode
 ;; ;;  C-c @ ESC C-s    show all
