@@ -84,7 +84,6 @@
 
 (color-theme-tangotango)
 
-
 (require 'cedet)
 ;;加载ecb
 (add-to-list 'load-path "~/lisp/ecb")
@@ -259,24 +258,24 @@
 (global-set-key (kbd "C-M-\\") 'indent-region-or-buffer) 
 
 ;; ;;能把一个代码块缩起来，需要的时候再展开
-;; ;;  M-x     hs-minor-mode
-;; ;;  C-c @ ESC C-s    show all
-;; ;;  C-c @ ESC C-h    hide all
-;; ;;  C-c @ C-s        show block
-;; ;;  C-c @ C-h        hide block
-;; ;;  C-c @ C-c toggle hide/show
+;;   M-x     hs-minor-mode
+;;   C-c @ ESC C-s    show all
+;;   C-c @ ESC C-h    hide all
+;;   C-c @ C-s        show block
+;;   C-c @ C-h        hide block
+;;   C-c @ C-c toggle hide/show
 
 ;; (load-library "hideshow") 
-;; (add-hook 'c-mode-hook 'hs-minor-mode)
-;; (add-hook 'c++-mode-hook 'hs-minor-mode)
-;; (add-hook 'java-mode-hook 'hs-minor-mode)
-;; (add-hook 'emacs-lisp-mode-hook 'hs-minor-mode)
-;; (add-hook 'lisp-mode-hook 'hs-minor-mode)
-;; (add-hook 'scheme-mode-hook 'hs-minor-mode)
-;; (add-hook 'css-mode-hook 'hs-minor-mode)
-;; (add-hook 'html-mode-hook 'hs-minor-mode)
-;; (global-set-key (kbd "C-c C-:") 'hs-show-all);;显示
-;; (global-set-key (kbd "C-c C-\"") 'hs-hide-all);;隐藏
+(add-hook 'c-mode-hook 'hs-minor-mode)
+(add-hook 'c++-mode-hook 'hs-minor-mode)
+(add-hook 'java-mode-hook 'hs-minor-mode)
+(add-hook 'emacs-lisp-mode-hook 'hs-minor-mode)
+(add-hook 'lisp-mode-hook 'hs-minor-mode)
+(add-hook 'scheme-mode-hook 'hs-minor-mode)
+(add-hook 'css-mode-hook 'hs-minor-mode)
+(add-hook 'html-mode-hook 'hs-minor-mode)
+(global-set-key (kbd "C-c C-:") 'hs-show-all);;显示
+(global-set-key (kbd "C-c C-\"") 'hs-hide-all);;隐藏
 
 ;; ;;输入左边的括号，就会自动补全右边的部分.包括(), "", [] , {} , 等等。
 (defun my-common-mode-auto-pair ()
@@ -472,7 +471,30 @@
 ;; ;;;F12 u 更新当前版本
 ;; (global-set-key (kbd "C-u") 'vc-next-action) 
 
+;; auto detect and display languages
+(require 'unicad)
 
+;; emms setup 
+(require 'emms-setup)
+          (emms-all)
+          (emms-default-players)
+;; add flv and ogv
+(define-emms-simple-player mplayer '(file url)
+      (regexp-opt '(".ogg" ".mp3" ".wav" ".mpg" ".mpeg" ".wmv" ".wma"
+                    ".mov" ".avi" ".divx" ".ogm" ".asf" ".mkv" "http://" "mms://"
+                    ".rm" ".rmvb" ".mp4" ".flac" ".vob" ".m4a" ".flv" ".ogv" ".pls"))
+      "mplayer" "-slave" "-quiet" "-really-quiet" "-fullscreen")
 
+(require 'w3m-load)
+(require 'mime-w3m)
+(add-hook 'w3m-mode-hook
+	  (lambda ()
+	    (setq w3m-new-session-in-background t)
+	    (setq-local mouse-1-click-follows-link nil)
+	    (local-set-key [backspace] #'w3m-view-previous-page)
+	    (local-set-key (kbd "<C-tab>") #'w3m-next-buffer)
+	    (local-set-key [mouse-1] #'w3m-mouse-view-this-url)
+	    (local-set-key [mouse-2] #'w3m-mouse-view-this-url-new-session)))
 
-
+;; load emms-get-lyrics.el to show lyrics
+(require 'emms-get-lyrics)

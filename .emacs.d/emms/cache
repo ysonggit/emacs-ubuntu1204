@@ -1,0 +1,4 @@
+;;; .emms-cache -*- mode: emacs-lisp; coding: utf-8; -*-
+(puthash "/home/yang/Music/平凡之路 - 朴树.mp3" '(*track* (type . file) (name . "/home/yang/Music/平凡之路 - 朴树.mp3") (metadata) (last-played 21448 25200 278463) (play-count . 4) (info-mtime 21446 45986)) emms-cache-db)
+(puthash "/home/yang/Music/我从来没去过纽约 - 筷子兄弟.mp3" '(*track* (type . file) (name . "/home/yang/Music/我从来没去过纽约 - 筷子兄弟.mp3") (metadata) (info-mtime 21445 40058) (last-played 21448 24848 844618) (play-count . 3)) emms-cache-db)
+(puthash "http://v.youku.com/v_show/id_XNzQxNDY1NDMy.html" '(*track* (type . url) (name . "http://v.youku.com/v_show/id_XNzQxNDY1NDMy.html") (metadata) (last-played 21448 25010 114320) (play-count . 1)) emms-cache-db)
