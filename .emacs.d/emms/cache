@@ -1,4 +1,8 @@
 ;;; .emms-cache -*- mode: emacs-lisp; coding: utf-8; -*-
-(puthash "/home/yang/Music/平凡之路 - 朴树.mp3" '(*track* (type . file) (name . "/home/yang/Music/平凡之路 - 朴树.mp3") (metadata) (last-played 21448 25200 278463) (play-count . 4) (info-mtime 21446 45986)) emms-cache-db)
+(puthash "/home/yang/Music/平凡之路 - 朴树.mp3" '(*track* (type . file) (name . "/home/yang/Music/平凡之路 - 朴树.mp3") (metadata) (last-played 21475 40824 708172) (play-count . 7) (info-mtime 21446 45986)) emms-cache-db)
 (puthash "/home/yang/Music/我从来没去过纽约 - 筷子兄弟.mp3" '(*track* (type . file) (name . "/home/yang/Music/我从来没去过纽约 - 筷子兄弟.mp3") (metadata) (info-mtime 21445 40058) (last-played 21448 24848 844618) (play-count . 3)) emms-cache-db)
 (puthash "http://v.youku.com/v_show/id_XNzQxNDY1NDMy.html" '(*track* (type . url) (name . "http://v.youku.com/v_show/id_XNzQxNDY1NDMy.html") (metadata) (last-played 21448 25010 114320) (play-count . 1)) emms-cache-db)
+(puthash "/home/yang/Music/月半小夜曲 (Live) - 陈乐基.mp3" '(*track* (type . file) (name . "/home/yang/Music/月半小夜曲 (Live) - 陈乐基.mp3") (metadata) (info-mtime 21470 50714) (last-played 21475 41130 981985) (play-count . 1)) emms-cache-db)
+(puthash "/home/yang/Music/爱我别走 (Live) - 李琪.mp3" '(*track* (type . file) (name . "/home/yang/Music/爱我别走 (Live) - 李琪.mp3") (metadata) (info-mtime 21470 50729) (last-played 21475 41314 374823) (play-count . 1)) emms-cache-db)
+(puthash "/home/yang/Music/盛夏光年 (Live) - 陈冰.mp3" '(*track* (type . file) (name . "/home/yang/Music/盛夏光年 (Live) - 陈冰.mp3") (metadata) (info-mtime 21470 50643) (last-played 21475 41513 241622) (play-count . 1)) emms-cache-db)
+(puthash "/home/yang/Music/美丽世界的孤儿 (Live) - 耿斯汉.mp3" '(*track* (type . file) (name . "/home/yang/Music/美丽世界的孤儿 (Live) - 耿斯汉.mp3") (metadata) (info-mtime 21470 50722) (last-played 21475 41677 575507) (play-count . 1)) emms-cache-db)

@@ -498,3 +498,30 @@
 
 ;; load emms-get-lyrics.el to show lyrics
 (require 'emms-get-lyrics)
+
+;; customize setting for Auctex
+(setq TeX-auto-save t)
+(setq TeX-parse-self t)
+(setq-default TeX-master nil)
+(add-hook 'LaTeX-mode-hook 'visual-line-mode)
+(add-hook 'LaTeX-mode-hook 'flyspell-mode)
+(add-hook 'LaTeX-mode-hook 'LaTeX-math-mode)
+(add-hook 'LaTeX-mode-hook 'turn-on-reftex)
+(setq reftex-plug-into-AUCTeX t)
+;; ;; auto-complete math symbols
+;; (add-to-list 'load-path "~/.emacs.d/ac-math")
+;; (require 'ac-math)
+;; (add-to-list 'ac-modes 'latex-mode)   ; make auto-complete aware of `latex-mode`
+;; (defun ac-latex-mode-setup ()         ; add ac-sources to default ac-sources
+;;   (setq ac-sources
+;;      (append '(ac-source-math-unicode ac-source-math-latex ac-source-latex-commands)
+;;                ac-sources)))
+;; (add-hook 'latex-mode-hook 'ac-latex-mode-setup)
+;; (ac-flyspell-workaround)
+;; 
+
+;; Julia Mode
+(require 'julia-mode)
+;; ESS not working 
+;; (add-to-list 'load-path "~/.emacs.d/ESS/lisp/ess-site")
+;; (setq inferior-julia-program-name "path/to/julia/julia")
