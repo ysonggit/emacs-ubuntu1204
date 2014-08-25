@@ -298,13 +298,13 @@
 (add-hook 'java-mode-hook 'my-common-mode-auto-pair)
 (add-hook 'lisp-mode-hook 'my-common-mode-auto-pair)
 (add-hook 'php-mode-hook 'my-common-mode-auto-pair)
-(add-hook 'python-mode-hook 'my-common-mode-auto-pair)
-(add-hook 'html-mode-hook 'my-common-mode-auto-pair)
-(add-hook 'scheme-mode-hook 'my-common-mode-auto-pair)
+;; (add-hook 'python-mode-hook 'my-common-mode-auto-pair)
+;; (add-hook 'html-mode-hook 'my-common-mode-auto-pair)
+;; (add-hook 'scheme-mode-hook 'my-common-mode-auto-pair)
 (add-hook 'css-mode-hook 'my-common-mode-auto-pair)
-(add-hook 'sql-mode-hook 'my-common-mode-auto-pair)
+;; (add-hook 'sql-mode-hook 'my-common-mode-auto-pair)
 (add-hook 'emacs-lisp-mode-hook 'my-common-mode-auto-pair)
-(add-hook 'text-mode-hook 'my-common-mode-auto-pair)
+;; (add-hook 'text-mode-hook 'my-common-mode-auto-pair)
 
 (setq x-select-enable-clipboard t);支持emacs和外部程序的粘贴 
 (setq frame-title-format '("Emacs@ " buffer-file-name " " ));在标题栏显示buffer名称 
@@ -445,9 +445,9 @@
 ;;                     (semantic-mrub-switch-tags first))))
 ;; (define-key c-mode-base-map [M-f1] 'semantic-analyze-proto-impl-toggle)
 
-;; ;;;;;;;;;;;;;;;;;;可视化书签;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; ; (enable-visual-studio-bookmarks)
-;; ;;;;;h/cpp切换;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;可视化书签;;;;;;;;;;;;;;;;;;;;;;;;;;
+; (enable-visual-studio-bookmarks)
+;;;;;h/cpp切换;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; (require 'eassist nil 'noerror)
 ;; (define-key c-mode-base-map [M-f12] 'eassist-switch-h-cpp)
 ;; (setq eassist-header-switches
@@ -500,9 +500,12 @@
 (require 'emms-get-lyrics)
 
 ;; customize setting for Auctex
-(setq TeX-auto-save t)
-(setq TeX-parse-self t)
-(setq-default TeX-master nil)
+; (setq TeX-auto-save t)
+(load-file "~/.emacs.d/auto-complete-auctex/auto-complete-auctex.el")
+;(setq TeX-parse-self t)
+;(setq-default TeX-master nil)
+;; Set pdflatex
+(setq TeX-PDF-mode t)
 (add-hook 'LaTeX-mode-hook 'visual-line-mode)
 (add-hook 'LaTeX-mode-hook 'flyspell-mode)
 (add-hook 'LaTeX-mode-hook 'LaTeX-math-mode)
@@ -518,10 +521,27 @@
 ;;                ac-sources)))
 ;; (add-hook 'latex-mode-hook 'ac-latex-mode-setup)
 ;; (ac-flyspell-workaround)
-;; 
+
+;; roslaunch highlighting
+(add-to-list 'auto-mode-alist '("\\.launch$" . xml-mode))
+
 
 ;; Julia Mode
 (require 'julia-mode)
 ;; ESS not working 
 ;; (add-to-list 'load-path "~/.emacs.d/ESS/lisp/ess-site")
 ;; (setq inferior-julia-program-name "path/to/julia/julia")
+(custom-set-variables
+  ;; custom-set-variables was added by Custom.
+  ;; If you edit it by hand, you could mess it up, so be careful.
+  ;; Your init file should contain only one such instance.
+  ;; If there is more than one, they won't work right.
+)
+(custom-set-faces
+  ;; custom-set-faces was added by Custom.
+  ;; If you edit it by hand, you could mess it up, so be careful.
+  ;; Your init file should contain only one such instance.
+  ;; If there is more than one, they won't work right.
+)
+
+
