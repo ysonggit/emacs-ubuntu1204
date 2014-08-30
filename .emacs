@@ -48,14 +48,20 @@
 (require 'color-theme)
 ;; ;(color-theme-calm-forest)
 ;; (setq color-theme-load-all-themes nil)
-(require 'color-theme-tangotango)
+;; (require 'color-theme-tangotango)
 
 ;; ;; select theme - first list element is for windowing system, second is for console/terminal
 ;; ;; Source : http://www.emacswiki.org/emacs/ColorTheme#toc9
-(setq color-theme-choices 
-      '(color-theme-tangotango color-theme-tangotango))
+;; (setq color-theme-choices 
+;;       '(color-theme-tangotango color-theme-tangotango))
 
-;; default-start
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Like-Monokai theme ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; https://github.com/alloy-d/color-theme-molokai
+(load "~/.emacs.d/color-theme-monokai.el")
+(setq color-theme-choices 
+       '(color-theme-monokai color-theme-monokai))
+
+;; ;; default-start
 (funcall (lambda (cols)
     	   (let ((color-theme-is-global nil))
     	     (eval 
@@ -63,7 +69,6 @@
     		      (mapcar (lambda (x) (cons x nil)) 
     			      cols)))))
     	 color-theme-choices)
-
 ;; test for each additional frame or console
 (require 'cl)
 (fset 'test-win-sys 
@@ -81,8 +86,9 @@
     	       color-theme-choices ))
 ;; hook on after-make-frame-functions
 (add-hook 'after-make-frame-functions 'test-win-sys)
+;; (color-theme-tangotango)
 
-(color-theme-tangotango)
+(color-theme-monokai)
 
 (require 'cedet)
 ;;加载ecb
