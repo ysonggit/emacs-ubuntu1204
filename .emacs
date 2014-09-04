@@ -6,17 +6,17 @@
 (global-set-key [f1] 'shell);F1进入Shell
 ;; ;;目的是开一个shell的小buffer，用于更方便地测试程序(也就是运行程序了)，我经常会用到。
 ;; ;;f1就是另开一个buffer然后打开shell，C-f1则是在当前的buffer打开shell
-;; (global-set-key [C-f5] 'previous-error)
-;; (global-set-key [f5] 'next-error)
+(global-set-key [C-f5] 'previous-error)
+(global-set-key [f5] 'next-error)
 (setq backup-inhibited t);;不产生备份
 (setq auto-save-default nil);不生成名为#filename# 的临时文件
-;; (defun open-eshell-other-buffer ()
-;;   "Open eshell in other buffer"
-;;   (interactive)
-;;   (split-window-vertically)
-;;   (eshell))
-;; (global-set-key [C-f1] 'open-eshell-other-buffer)
-;; ;;(global-set-key [C-f1] 'eshell)
+(defun open-eshell-other-buffer ()
+  "Open eshell in other buffer"
+  (interactive)
+  (split-window-vertically)
+  (eshell))
+(global-set-key [C-f1] 'open-eshell-other-buffer)
+(global-set-key [C-f1] 'eshell)
 
 ;; ;;ruby mode 
 (add-to-list 'auto-mode-alist
@@ -363,7 +363,15 @@
 ;; ;; 把文件或buffer彩色输出成html
 ;; (require 'htmlize) 
 ;; ;; 高亮当前行
-;; (load "hl-line-settings")
+; (load "hl-line-settings")
+;; highlight the current line; set a custom face, so we can
+;; recognize from the normal marking (selection)
+;; Set highlight background color to be saddle brown #8b4513
+;; Available colors for emacs http://raebear.net/comp/emacscolors.html
+(defface hl-line '((t (:background "#8b4513"))) 
+  "Face to use for `hl-line-face'." :group 'hl-line)
+(setq hl-line-face 'hl-line)
+(global-hl-line-mode t) ; turn it on for all modes by default
 
 ;; (autoload 'table-insert "table" "WYGIWYS table editor")
 
