@@ -1,4 +1,3 @@
-;; ;解决emacs shell 乱码 
 ;; (setq ansi-color-for-comint-mode t) 
 ;; (customize-group 'ansi-colors) 
 ;; (kill-this-buffer);关闭customize窗口 
@@ -210,12 +209,12 @@
 ;;                             (delete-windows-on (process-buffer proc))))))
  
 ;; ;; 编译成功后自动关闭*compilation* buffer
-;; (add-hook 'compilation-start-hook 'kill-buffer-when-compile-success)
+(add-hook 'compilation-start-hook 'kill-buffer-when-compile-success)
 ;; ;;退出时寻问 
 ;; (setq kill-emacs-query-functions
 ;;       (lambda ()
 ;;         (y-or-n-p "Do you really want to quit? ")))
-;; (global-set-key (kbd "M-g") 'goto-line);;设置M-g为goto-line
+(global-set-key (kbd "M-g") 'goto-line);;设置M-g为goto-line
 
 ;; ;; 尽快显示按键序列
 ;; (setq echo-keystrokes 0.1)
@@ -566,3 +565,22 @@
 ;; Disable Insert Key (Ovwrt)
 (define-key global-map [(insert)] nil)
 (define-key global-map [(control insert)] 'overwrite-mode)
+
+
+;; Support ROS Commands
+;; Load the library and start it up
+(require 'rosemacs)
+(invoke-rosemacs)
+
+;; Optional but highly recommended: add a prefix for quick access
+;; to the rosemacs commands
+;;  C-x C-r C-f will find a package or file using rospack. 
+;;  C-h f command-name to see if there's a shortcut for a given command.
+;;  C-x C-r C-h to see the entire list of keyboard shortcuts.
+(global-set-key "\C-x\C-r" ros-keymap)
+
+;; Enable YAML Mode
+(load-file "~/.emacs.d/yaml-mode.el")
+(require 'yaml-mode)
+(add-to-list 'auto-mode-alist '("\\.yml$" . yaml-mode))
+(add-to-list 'auto-mode-alist '("\\.yaml$" . yaml-mode))
