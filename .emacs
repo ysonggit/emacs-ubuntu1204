@@ -166,7 +166,7 @@
 (global-set-key [C-f10] 'undo);;设置C-F10为撤销
 ;; (global-set-key [C-f11] 'calendar) ;;设置C-F11快捷键指定Emacs 的日历系统
 ;; (global-set-key [C-f12] 'list-bookmarks);;设置C-F12 快速察看日程安排
-;; (global-set-key (kbd "C-|") 'other-window);窗口间跳转 
+(global-set-key (kbd "C-|") 'other-window);窗口间跳转 
 (global-set-key [f2] 'kill-this-buffer);F2关闭当前buffer
 (global-set-key [M-return] 'kill-this-buffer);M-return关闭当前buffer 
 (global-set-key [f10] 'split-window-vertically);F10分割窗口 
@@ -211,9 +211,9 @@
 ;; ;; 编译成功后自动关闭*compilation* buffer
 (add-hook 'compilation-start-hook 'kill-buffer-when-compile-success)
 ;; ;;退出时寻问 
-;; (setq kill-emacs-query-functions
-;;       (lambda ()
-;;         (y-or-n-p "Do you really want to quit? ")))
+(setq kill-emacs-query-functions
+      (lambda ()
+        (y-or-n-p "Do you really want to quit? ")))
 (global-set-key (kbd "M-g") 'goto-line);;设置M-g为goto-line
 
 ;; ;; 尽快显示按键序列
@@ -436,11 +436,9 @@
 ;;       (call-interactively 'lisp-indent-line)
 ;;       (call-interactively 'slime-indent-and-complete-symbol)))
 
-
 ;; (eval-after-load "lisp-mode"
 ;;   '(progn
 ;;     (define-key lisp-mode-map (kbd "TAB") 'lisp-indent-or-complete)))
-
 
 ;; ;;;;;;;;;;;;;;;;;;;;;;代码跳转;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; (global-set-key [f8] 'semantic-ia-fast-jump)
@@ -573,7 +571,6 @@
 ;; Disable Insert Key (Ovwrt)
 (define-key global-map [(insert)] nil)
 (define-key global-map [(control insert)] 'overwrite-mode)
-
 
 ;; Support ROS Commands
 ;; Load the library and start it up
