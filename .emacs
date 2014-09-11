@@ -172,6 +172,7 @@
 (global-set-key [f10] 'split-window-vertically);F10分割窗口 
 (global-set-key [f11] 'delete-other-windows);F11 关闭其它窗口 
 (global-set-key [f12] 'my-fullscreen);F12 全屏 
+(global-set-key (kbd "C-x C-<up>") 'other-frame) ;转到下一个frame
 ;; (global-set-key (kbd "C-,") 'backward-page);文件首 
 ;; (global-set-key (kbd "C-.") 'forward-page);文件尾 
 ;; (global-set-key (kbd "C-'") 'next-buffer);转到下一个buffer
