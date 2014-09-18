@@ -124,7 +124,7 @@
 (setq column-number-mode t) 
 (setq line-number-mode t)
 (global-linum-mode 'linum-mode);;在左边显示行号
-(global-set-key (kbd "C-a") 'view-file-other-window)
+(global-set-key (kbd "C-v") 'view-file-other-window)
 (global-font-lock-mode t);语法高亮 
 (setq font-lock-maximum-decoration t)
 (setq font-lock-global-modes '(not shell-mode text-mode))
@@ -242,11 +242,12 @@
 
 ;; (setq compile-command "make")
 ;; ;;emacs的默认compile命令是调用make -k，我把它改成了make。你也可以把它改成其他的，比如gcc之类的.
-;; ;;把c语言风格设置为k&r风格
+;; (add-hook 'c-mode-common-hook 'google-set-c-style)
+;;把c语言风格设置为k&r风格
 (add-hook 'c-mode-hook
 '(lambda ()
 (c-set-style "k&r")))
-;; ;;把C++语言风格设置为stroustrup风格
+;;把C++语言风格设置为stroustrup风格
 (add-hook 'c++-mode-hook
 '(lambda()
 (c-set-style "stroustrup")))
@@ -288,8 +289,25 @@
 ;;   C-c @ C-s        show block
 ;;   C-c @ C-h        hide block
 ;;   C-c @ C-c toggle hide/show
+(defun toggle-selective-display (column)
+  (interactive "P")
+  (set-selective-display
+   (or column
+       (unless selective-display
+	 (1+ (current-column))))))
 
-;; (load-library "hideshow") 
+(defun toggle-hiding (column)
+  (interactive "P")
+  (if hs-minor-mode
+      (if (condition-case nil
+	      (hs-toggle-hiding)
+	    (error t))
+	  (hs-show-all))
+    (toggle-selective-display column)))
+
+(load-library "hideshow") 
+(global-set-key (kbd "C-+") 'toggle-hiding)
+(global-set-key (kbd "C-\\") 'toggle-selective-display)
 (add-hook 'c-mode-hook 'hs-minor-mode)
 (add-hook 'c++-mode-hook 'hs-minor-mode)
 (add-hook 'java-mode-hook 'hs-minor-mode)
