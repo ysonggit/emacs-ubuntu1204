@@ -4,12 +4,10 @@
 (setq default-major-mode 'text-mode);一打开就起用 text 模式
 ;; ;自定义按键 
 (global-set-key [f1] 'shell);F1进入Shell
+;;  C-x b to return 
 ;; ;;目的是开一个shell的小buffer，用于更方便地测试程序(也就是运行程序了)，我经常会用到。
 ;; ;;f1就是另开一个buffer然后打开shell，C-f1则是在当前的buffer打开shell
-(global-set-key [C-f5] 'previous-error)
-(global-set-key [f5] 'next-error)
-(setq backup-inhibited t);;不产生备份
-(setq auto-save-default nil);不生成名为#filename# 的临时文件
+;;  E-shell is recommended
 (defun open-eshell-other-buffer ()
   "Open eshell in other buffer"
   (interactive)
@@ -17,6 +15,26 @@
   (eshell))
 (global-set-key [C-f1] 'open-eshell-other-buffer)
 (global-set-key [C-f1] 'eshell)
+
+;; Enable shell-command autocomplete
+(require 'shell-command)
+(shell-command-completion-mode)
+(add-to-list 'load-path "~/.emacs.d/emacs-bash-completion")
+(autoload 'bash-completion-dynamic-complete  
+  "bash-completion"  
+  "BASH completion hook")
+(add-hook 'shell-dynamic-complete-functions
+  'bash-completion-dynamic-complete)
+(add-hook 'shell-command-complete-functions
+  'bash-completion-dynamic-complete)
+(require 'bash-completion)
+(bash-completion-setup)
+
+(global-set-key [C-f5] 'previous-error)
+(global-set-key [f5] 'next-error)
+(setq backup-inhibited t);;不产生备份
+(setq auto-save-default nil);不生成名为#filename# 的临时文件
+
 
 ;; ;;ruby mode 
 (add-to-list 'auto-mode-alist
@@ -106,7 +124,7 @@
 (setq column-number-mode t) 
 (setq line-number-mode t)
 (global-linum-mode 'linum-mode);;在左边显示行号
-;;(global-set-key (kbd "C-a") 'view-file-other-window)
+(global-set-key (kbd "C-a") 'view-file-other-window)
 (global-font-lock-mode t);语法高亮 
 (setq font-lock-maximum-decoration t)
 (setq font-lock-global-modes '(not shell-mode text-mode))
@@ -540,7 +558,6 @@
 ;; roslaunch highlighting
 (add-to-list 'auto-mode-alist '("\\.launch$" . xml-mode))
 
-
 ;; Julia Mode
 (require 'julia-mode)
 ;; ESS not working 
@@ -575,15 +592,15 @@
 
 ;; Support ROS Commands
 ;; Load the library and start it up
-(require 'rosemacs)
-(invoke-rosemacs)
+;; (require 'rosemacs)
+;; (invoke-rosemacs)
 
 ;; Optional but highly recommended: add a prefix for quick access
 ;; to the rosemacs commands
 ;;  C-x C-r C-f will find a package or file using rospack. 
 ;;  C-h f command-name to see if there's a shortcut for a given command.
 ;;  C-x C-r C-h to see the entire list of keyboard shortcuts.
-(global-set-key "\C-x\C-r" ros-keymap)
+;; (global-set-key "\C-x\C-r" ros-keymap)
 
 ;; Enable YAML Mode
 (load-file "~/.emacs.d/yaml-mode.el")
