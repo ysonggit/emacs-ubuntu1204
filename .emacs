@@ -162,7 +162,7 @@
 ;;  (global-set-key (kbd "<C-mouse-1>") 'mouse-buffer-menu);;ctrl+鼠标左键调出选择切换buffer功能
 ;; (global-set-key (kbd "<C-down-mouse-2>") 'mouse-popup-menuar-stuff);;ctrl+鼠标右键调出和编辑相关功能
 ;; (global-set-key [C-f2] 'slime-compile-file);slime编译文件
-(global-set-key [C-f3] 'python-shell);F3进入Python-Shell
+;; (global-set-key [C-f3] 'python-shell);F3进入Python-Shell
 (global-set-key [C-f6] 'gdb);F5调试程序 
 ;; (setq compile-command "make -f Makefile") 
 ;; ;;(global-set-key [f7] 'compile);F7编译文件 
