@@ -124,7 +124,7 @@
 (setq column-number-mode t) 
 (setq line-number-mode t)
 (global-linum-mode 'linum-mode);;在左边显示行号
-(global-set-key (kbd "C-v") 'view-file-other-window)
+;;(global-set-key (kbd "C-v") 'view-file-other-window)
 (global-font-lock-mode t);语法高亮 
 (setq font-lock-maximum-decoration t)
 (setq font-lock-global-modes '(not shell-mode text-mode))
@@ -625,3 +625,11 @@
 (require 'yaml-mode)
 (add-to-list 'auto-mode-alist '("\\.yml$" . yaml-mode))
 (add-to-list 'auto-mode-alist '("\\.yaml$" . yaml-mode))
+
+;; Killing a line backwards can be done with ‘C-0 C-k’ or ‘C-u 0 C-k’.
+(defun backward-kill-line (arg)
+  "Kill ARG lines backward."
+  (interactive "p")
+  (kill-line (- 1 arg)))
+
+(global-set-key "\C-q" 'backward-kill-line) ;; `C-q'
