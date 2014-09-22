@@ -35,6 +35,12 @@
 (setq backup-inhibited t);;不产生备份
 (setq auto-save-default nil);不生成名为#filename# 的临时文件
 
+;; load erc
+;; sudo apt-get install erc
+;; => /usr/share/emacs23/site-lisp/erc
+(add-to-list 'load-path "/usr/share/emacs23/site-lisp/erc")
+(require 'erc)
+
 
 ;; ;;ruby mode 
 (add-to-list 'auto-mode-alist
@@ -548,7 +554,9 @@
 	    (local-set-key [mouse-2] #'w3m-mouse-view-this-url-new-session)))
 
 ;; load emms-get-lyrics.el to show lyrics
-(require 'emms-get-lyrics)
+;;(require 'emms-get-lyrics)
+(require 'emms-lyrics)
+(emms-lyrics 1)
 
 ;; customize setting for Auctex
 ; (setq TeX-auto-save t)
