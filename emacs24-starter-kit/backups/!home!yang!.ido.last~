@@ -1,0 +1,323 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/yang/emacs24-starter-kit/emms/" . "lisp/")
+ ("/home/yang/emacs24-starter-kit/" . "emms/")
+ ("/home/yang/.gvfs/SFTP for song24 on ares.cse.sc.edu/acct/s1/song24/public_html/bootstrap-3.1.1/dist/" . "js/")
+ ("/home/yang/.gvfs/SFTP for song24 on ares.cse.sc.edu/acct/s1/song24/public_html/bootstrap-3.1.1/" . "dist/")
+ ("/home/yang/.gvfs/SFTP for song24 on ares.cse.sc.edu/acct/s1/song24/public_html/" . "bootstrap-3.1.1/")
+ ("/home/yang/code/catkin_workspace/src/gazebo_simulator/model/" . "meshes/")
+ ("/home/yang/Labwiki/scarrdoc/" . "git/")
+ ("/home/yang/Labwiki/" . "scarrdoc/")
+ ("/home/yang/code/catkin_workspace/src/lattice_controller/" . "launch/")
+ ("/home/yang/code/catkin_workspace/src/gazebo_simulator/include/" . "gazebo_simple/")
+ ("/home/yang/code/catkin_workspace/src/gazebo_simulator/" . "model/")
+ ("/home/yang/gazebo_simple/" . "src/")
+ ("/home/yang/code/catkin_workspace/src/gazebo_simple/" . "launch/")
+ ("/home/yang/codelib/" . "prac/")
+ ("/home/yang/code/icra15/" . "drawings/")
+ ("/home/yang/.julia/v0.2/Cairo/" . "deps/")
+ ("/home/yang/.julia/v0.2/" . "Cairo/")
+ ("/home/yang/.julia/" . "v0.2/")
+ ("/home/yang/code/catkin_workspace/devel/include/" . "lattice_msgs/")
+ ("/home/yang/code/catkin_workspace/devel/" . "include/")
+ ("/home/yang/code/catkin_workspace/src/robot_inspector/include/" . "robot_inspector/")
+ ("/home/yang/code/catkin_workspace/src/robot_inspector/" . "src/")
+ ("/home/yang/code/catkin_workspace/src/lattice_msgs/" . "msg/")
+ ("/home/" . "yang/")
+ ("/" . "home/")
+ ("/home/yang/latex/" . "slides_icra2014/")
+ ("/home/yang/code/slides_icra2014/" . "figs/")
+ ("/home/yang/Desktop/icra/" . "AAUgraphics/")
+ ("/home/yang/Desktop/" . "slides/")
+ ("/home/yang/ruby/ScheduleProject/db/" . "migrate/")
+ ("/home/yang/ruby/ScheduleProject/app/views/" . "meetings/")
+ ("/home/yang/ruby/ScheduleProject/app/" . "views/")
+ ("/home/yang/ruby/ScheduleProject/" . "features/")
+ ("/home/yang/ruby/myrottenpotatoes/app/views/" . "movies/")
+ ("/home/yang/ruby/myrottenpotatoes/app/" . "views/")
+ ("/home/yang/ruby/myrottenpotatoes/" . "app/")
+ ("/home/yang/ruby/" . "ScheduleProject/")
+ ("/home/yang/Downloads/" . "media9/")
+ ("/home/yang/python/PythonUtilities/" . "gui_using_tkinter/")
+ ("/home/yang/python/" . "PythonUtilities/")
+ ("/home/yang/code/catkin_workspace/src/" . "lattice_simulator/")
+ ("/home/yang/code/catkin_workspace/" . "src/")
+ ("/home/yang/code/" . "catkin_workspace/")
+ ("/home/yang/" . "emacs24-starter-kit/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/yang/emacs24-starter-kit/"
+ "/home/yang/"
+ "/home/yang/.emacs.d/"
+ "/home/yang/code/catkin_workspace/"
+ "/home/yang/emacs24-starter-kit/emms/lisp/"
+ "/home/yang/code/catkin_workspace/src/lattice_simulator/"
+ "/home/yang/code/catkin_workspace/src/lattice_controller/"
+ "/home/yang/code/icra15/"
+ "/home/yang/code/catkin_workspace/src/lattice_controller/launch/"
+ "/home/yang/codelib/prac/"
+ "/home/yang/code/formation/"
+ "/home/yang/code/icra14/"
+ "/home/yang/code/catkin_workspace/src/lattice_msgs/msg/"
+ "/home/yang/code/catkin_workspace/src/robot_inspector/src/"
+ "/home/yang/code/catkin_workspace/src/lattice_msgs/"
+ "/home/yang/codelib/cci/"
+ "/home/yang/Public/"
+ "/home/yang/code/catkin_workspace/src/lattice_controller/lattice/"
+ "/home/yang/.gvfs/SFTP for song24 on ares.cse.sc.edu/acct/s1/song24/public_html/"
+ "/home/yang/.gvfs/SFTP for song24 on ares.cse.sc.edu/acct/s1/song24/public_html/bootstrap-3.1.1/dist/js/"
+ "/home/yang/.gvfs/SFTP for song24 on ares.cse.sc.edu/acct/s1/song24/public_html/bootstrap-3.1.1/dist/css/"
+ "/home/yang/code/catkin_workspace/src/gazebo_simulator/model/meshes/"
+ "/home/yang/latex/slides_icra2014/"
+ "/home/yang/Labwiki/scarrdoc/git/"
+ "/home/yang/Labwiki/scarrdoc/"
+ "/home/yang/.ssh/"
+ "/home/yang/code/catkin_workspace/src/gazebo_simulator/src/"
+ "/home/yang/code/catkin_workspace/src/gazebo_simulator/"
+ "/home/yang/code/catkin_workspace/src/gazebo_simulator/include/"
+ "/home/yang/code/catkin_workspace/src/gazebo_simulator/launch/"
+ "/home/yang/code/catkin_workspace/src/gazebo_simulator/model/"
+ "/home/yang/code/catkin_workspace/src/robot_inspector/"
+ "/home/yang/code/catkin_workspace/src/gazebo_simple/launch/"
+ "/home/yang/gazebo_simple/src/"
+ "/home/yang/code/catkin_workspace/src/gazebo_simple/model/"
+ "/home/yang/code/catkin_workspace/src/gazebo_simple/"
+ "/home/yang/code/icra15/drawings/"
+ "/home/yang/code/paper/"
+ "/home/yang/cpp/"
+ "/home/yang/julia/"
+ "/home/yang/.julia/v0.2/Cairo/deps/"
+ "/home/yang/code/catkin_workspace/devel/include/lattice_msgs/"
+ "/home/yang/Desktop/"
+ "/home/yang/.rviz/"
+ "/home/yang/Downloads/media9/"
+ "/home/yang/code/slides_icra2014/"
+ "/home/yang/Desktop/slides/"
+ "/home/yang/Desktop/icra/"
+ "/home/yang/ruby/ScheduleProject/features/"
+ "/home/yang/ruby/ScheduleProject/db/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ ".emacs"
+ "color-theme.el"
+ "color-theme-monokai.el"
+ "launchfile_generator.py"
+ "emms-lyrics-download.el"
+ "init-emms.el"
+ "lch-emms.el"
+ "simulatedrobot.h"
+ "controller.cpp"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/yang/emacs24-starter-kit/" (21536 39274 740918 603000) ".git/" "starter-kit-ruby.org" "elpa/" "DoubanMusic/" "backups/" "starter-kit-js.org" "snippets/" "starter-kit-misc.el" "starter-kit-registers.org" "starter-kit-org.org" "starter-kit.el" "themes/" "starter-kit-bindings.el" "Makefile" "starter-kit-eshell.org" "starter-kit-misc-recommended.org" "starter-kit-defuns.el" "starter-kit-scala.org" "starter-kit-python.org" "COPYING" "src/" "custom.el" "places" "starter-kit-publish.org" "starter-kit-defuns.org" "starter-kit.org" "../" "starter-kit-lisp.org" ".gitignore" "README" "starter-kit-registers.el" "starter-kit-misc.org" "starter-kit-gnus.org" "starter-kit-g-client.org" "starter-kit-perl.org" "starter-kit-bindings.org" "./" "starter-kit-yasnippet.org" "init.el" "starter-kit-haskell.org" "emms/")
+
+ ("/home/yang/emacs-w3m-1.4.4/" (21448 23965 241693 557000) "w3m-load.el" "w3m-e19.el" "w3m-rss.el" "w3m.el" "aclocal.m4" "w3m-favicon.elc" "w3m-fsf.el" "w3m-bitmap.el" "Makefile.in" "w3m-perldoc.el" "w3m-ccl.elc" "w3m-ccl.el" "w3m-om.el" "w3m-ucs.el" "w3m-lnum.el" "config.status" "config.log" "w3m-antenna.el" "w3mhack.el" "w3m-favicon.el" "w3m-weather.el" "w3m-image.el" "w3m-e20.el" "octet.elc" "octet.el" "ChangeLog.1" "doc/" "w3m-bug.elc" "Makefile" "README.ja" "install-sh" "w3m-search.el" "configure" "w3m-symbol.elc" "w3m-namazu.el" "attic/" "ChangeLog" "COPYING" "icons30/" "icons/" "w3m-image.elc" "w3m-bug.el" "patches/" "shimbun/" "w3m-fsf.elc" "../" "w3m-rss.elc" "w3m-util.el" "mew-w3m.el" "w3m-hist.el" "mime-w3m.el" "w3m-dtree.el" "mkinstalldirs" "w3m-form.el" "w3m-filter.el" "README" "w3m-xmas.el" "w3m-bookmark.el" "w3m-proc.el" "w3m-proc.elc" "w3m-util.elc" "configure.in" "w3m-cookie.el" "w3m-tabmenu.el" "w3m-symbol.el" "w3m-hist.elc" "./" "w3m-e21.el")
+
+ ("/home/yang/" (21536 39318 920 260000) ".dbus/" ".irb-history" ".goutputstream-QHC5BX" "fig2eps" "screen/" "douban-music-mode.el" ".cache/" ".hplip/" ".bash_history" ".emacs~" ".fontconfig/" "raster2eps" ".gnome2/" "examples.desktop" "Music/" ".gem/" ".gksu.lock" ".julia/" ".fbmessenger/" ".goutputstream-REPNKX" ".byobu/" "Templates/" ".bash-git-prompt/" ".ispell_default" ".emacs" "Labwiki/" ".goutputstream-W2RADX" ".pulse-cookie" ".viminfo" ".gitk" ".zlogin" ".mplayer/" ".eric4/" ".sdformat/" "latex/" ".ido.last" "Downloads/" ".launchpadlib/" "Myemacs/" ".bash_profile" ".xsession-errors.old" ".gimp-2.6/" ".macromedia/" ".matplotlib/" ".dmrc" ".pki/" "lisp/" ".xdvirc" ".gegl-0.0/" ".pulse/" "missfont.log" "emacs24-starter-kit/" ".gconf/" "Documents/" ".goutputstream-U61SKX" ".texmf-var/" ".vim/" ".xsessionrc" "ruby/" ".themes/" "bin/" ".recentf" ".thunderbird/" "julia/" ".ssh/" ".wine/" ".rviz/" ".emacs.d/" ".Xauthority" "../" "gazebo_simple/" ".irssi/" ".alsaplayer/" "Pictures/" ".bundler/" "python/" ".eshell/" "Public/" "code/" ".gtkpod/" "Desktop/" ".gtk-bookmarks" ".bash_logout" ".local/" ".gvimrc" ".goutputstream-W505BX" ".nv/" ".xfigrc" ".screenrc" ".ICEauthority" ".mission-control/" ".julia_history" ".speech-dispatcher/" ".bashrc" ".mozilla/" ".shotwell/" "emacs-w3m-1.4.4/" ".config/" ".ibus/" ".gazebo/" ".gstreamer-0.10/" ".goutputstream-VEL9FX" ".gnome2_private/" ".ros/" "icreate_gazeboros/" "./" "latex2dvi" ".profile" ".rvm/" ".xsession-errors" ".juliarc.jl" ".gnuplot-wxt" ".goutputstream-PNDHMX" ".compiz-1/" "bibformat" ".gvfs/" ".adobe/" "texmake" ".zshrc" "Resume/" ".goutputstream-IA0RDX" ".gitconfig" ".vimrc" ".bashrc~" "Videos/" ".icons/" "cv_old/" ".xinput.d/" "ezmake" ".mew.el" "codelib/" ".thumbnails/")
+
+ ("/home/yang/.emacs.d/" (21536 35829) "unicad.el" "js2-mode.el" "fuzzy.el" "elpa/" "julia-mode.el" "emacs-bash-completion/" "auto-install/" "DoubanMusic/" "multi-gdb-ui.el" "session.el" "session-settings.el" "eproject.lst" "ac-dict/" "popup.el" "displn-mode-settings.el" "haml-mode.el" "template/" "css-mode.el" "eassist.el" "anything.el" "vc+.el" "auto-save-list/" "fuzzy.elc" "url/" "plugins/" "table.el" "google-c-style.el" "ac-comphist.dat" "artist-settings.el" "emaci.el" "multi-gud.el" "org-settings.el" "color-theme-monokai.el" "recentf.el" "auto-complete/" "markdown-mode.el" "template-settings.el" "sdcv.el" "javascript.el" "../" "psvn.el" "ahei-misc.el" "svn-settings.el" "vc-settings.el" "keisen-mouse.el" "keisen-mule.el" "shell-command.el" "template.el" "yaml-mode.el" "monokai-theme.el" "company/" "util.el" "auto-complete-settings.el" "gud-settings.el" "emaci-settings.el" "thumbs.el" "ac-math/" "auto-complete+.el" "dict/" "ido.el" "./" "company-sttings.el" "color-theme-tangotango.el" "emms-get-lyrics.el" "rcodetools.el" "popup.elc" "auto-complete-c.el" "color-theme.el" "DouBanMusic/" "emms-lyrics.el" "wcy-swbuff.el" "eval-after-load.el" "emms/" "auto-complete-auctex/")
+
+ ("/home/yang/emacs24-starter-kit/emms/lisp/" (21536 27841) "emms-player-mpg321-remote.el" "emms-librefm-scrobbler.el" "emms-player-simple.el" "emms-last-played.el" "emms-playlist-sort.el" "emms.el" "emms-playlist-limit.el" "emms-setup.el" "emms-i18n.el" "emms-info-metaflac.el" "emms-mode-line.el" "emms-librefm-stream.el" "later-do.el" "emms-mode-line-icon.el" "emms-stream-info.el" "emms-playing-time.el" "emms-volume-amixer.el" "emms-cue.el" "emms-browser.el" "emms-history.el" "Makefile" "emms-info-mp3info.el" "emms-streams.el" "emms-playlist-mode.el" "emms-tag-editor.el" "emms-source-playlist.el" "jack.el" "tq.el" "emms-player-mpd.el" "emms-source-file.el" "emms-info.el" "emms-score.el" "emms-compat.el" "../" "emms-player-xine.el" "emms-cache.el" "emms-url.el" "emms-bookmarks.el" "emms-volume.el" "emms-player-mplayer.el" "emms-metaplaylist-mode.el" "emms-info-libtag.el" "emms-maint.el" "emms-auto.in" "./" "emms-player-vlc.el" "emms-mark.el" "emms-lyrics.el" "emms-info-ogginfo.el")
+
+ ("/home/yang/emacs24-starter-kit/emms/" (21536 27841) ".git/" "emms-print-metadata.1" "NEWS" "AUTHORS" "doc/" "Makefile" "lisp/" "COPYING" "src/" "../" ".gitignore" "README" "./")
+
+ ("/home/yang/Desktop/" (21535 11737) "IRC" "Zstatus.pdf" "icra15.zip" "../" "RoadMapiOS.pdf" "default.rviz" "icra/" "./" "CppPractice.pdf" "1667_dataplus_3g.pdf" "auctex-ref.pdf")
+
+ ("/home/yang/code/formation/" (21534 11731) "mystery.lg" "settings.cpp" "gpcutil.cpp" "drawercolor.o" "drawercolor.h" "genpoly.cpp" "robot.cpp" "pathfind.cpp" "segment.cpp" "mydefault.in" "07-relative-position.in" "transform.o" "testlatticetask.in" "BipartiteGraph.o" "glutil.h" "apollonius.cpp" "pointnd.cpp" "spiral.lg" "exp-alltime-05-hexagon-lattice.in.dat" "animate-callback.h" "rectangle.h" "octsq.lg" "taskreg.h" "gldrawer.h" "gamecock.lg" "trihexsq.lg" "polygon.o" "authority.cpp" "taskreg.cpp" "fig.o" "movable-points.o" "qmutex.h" "robotdraw.o" "ellipse.h" "drawer.h" "triangle.cpp" "normseq.h" "autorobot.h" "latticegraph.cpp" "exp-allqual-05-hexagon-lattice.in.dat" "apollonius.o" "movable-points.h" "uniseq.o" "point.h" "diamond.lg" "svgdrawer.cpp" "polygon.cpp" "create_octsq_video.py" "point.o" "fig.cpp" "exp.cache" "autorobot.cpp" "diffdrive.o" "qmutex.cpp" "latticegraph.o" "rectangle.o" "Hungarian.o" "animate-callback.cpp" "apollonius.h" "animate-gl.o" "task.cpp" "viewlgtask.cpp" "rectangle.cpp" "interact" "message.h" "create_hex_video.py" "drawlgtask.o" "build-options.def" "emptytask.h" "faststats.o" "message.o" "stats.h" "message.cpp" "taskreg.o" "diamond_basic.lg" "matrix.h" "plotTimeQuality.py" "movable-points.in" "authority.o" "latticegraph.h" "flower.lg" "create-figures-for-paper" "md5.o" "exp-allqual-04-square-lattice.in.dat" "Makefile.top" "flower_retry.lg" "testLatticeTask.cpp" "halfplane.cpp" ".autorobot.cpp.swp" "gpcutil.h" "dummy.h" "normseq.o" "autorobot.o" "animate-gl.cpp" "ilutil.cpp" "initial-formation.fig" "circle.o" "formationtask.cpp" "halfplane.h" "diamond_side.lg" "03-simple-tree.in" "Makefile.opt" "01-test-authority.in" "main.o" "timer.h" "gldrawer.cpp" "task.h" "point.cpp" "emptytask.cpp" "faststats.cpp" "formationtask.o" "configure-build-options" "hex.lg" "ellipse.cpp" "uniseq.h" "diffdrive.cpp" "spiral_2.lg" "randseq.h" "testLatticeTask.o" "triangle.o" "svgdrawer.h" "matrix.cpp" "triangle.h" "svgdrawer.o" "commit.h" "blank.txt" "timer.cpp" "BipartiteGraph.cpp" "segment.h" "create_video_octsq.sh" "diffdrive.h" "emptytask.o" "normseq.cpp" "md5.h" "unionfind.cpp" "config.o" "05-hexagon-lattice.in" "square.lg" "task.o" "drawercolor.cpp" "robot.o" "genpoly.o" "Hungarian.h" "settings.h" ".gitignore" "Hungarian.cpp" "drawer.o" "09-p.in" "transform.cpp" "animate.o" "run-group" "config.h" "segment.o" "single-node.lg" "transform.h" "stats.o" "ilutil.h" "fig.h" "animate.h" "p.lg" "one-square.lg" "glutil.o" "06-octagon-square.in" "fig-enums.h" "faststats.h" "matrix.o" "pathfind.o" "ilutil.o" "main.cpp" "testLatticeTask.h" "util.o" "11-trihexsq-lattice.in" "util.cpp" "defaults.in" "unionfind.o" "polygon.h" "movable-points.cpp" "tree.lg" "glutil.cpp" "robotdraw.h" "10-trihexsq-lattice.in" "exp-alltime-04-square-lattice.in.dat" "ellipse.o" "unionfind.h" "drawlgtask.cpp" "formation" "exp-alltime-06-octagon-square.in.dat" "BipartiteGraph.h" "halfplane.o" "alternating-squares.lg" "animate-gl.h" "exp.pl" "robotdraw.cpp" "draw-lattice-graph.in" "stats.cpp" "timer.o" "04-square-lattice.in" "none" "diamond_test2.lg" "formationtask.h" "qmutex.o" "ReadMe.txt" "authority.h" "initial-formation-50bots.fig" "gpcutil.o" "uniseq.cpp" "robot.h" "interactive-design.in" "circle.h" "animate.cpp" "drawer.cpp" "gldrawer.o" "pointnd.h" "util.h" "pathfind.h" "exp-allqual-06-octagon-square.in.dat" "sq.lg" "config.cpp" "two-nodes.lg" "animate-callback.o" "settings.o" "viewlgtask.o" "02-single-node.in" "genpoly.h" "md5.cpp" "pointnd.o" "circle.cpp" "ezmake" "interactive-design.o" "final-formation.fig" "interactive-design.cpp" "BgMatrix.h" "../" "./")
+
+ ("/home/yang/codelib/prac/" (21535 34733) "test_shared_ptr.cpp" "../" "a.out" "test_vector_list.cpp" "./")
+
+ ("/home/yang/code/catkin_workspace/src/lattice_controller/launch/" (21535 38649) "test_two_controllers.launch" "test_line_formation.launch" "test_move_backwards_2bots.launch" "test_trihexsq_50bots.launch" "test_hex_20bots.launch" "test_sq_3bots.launch" "test_multiple_orphans_octsq_100bot.launch" "test_finite_p_letter.launch" "test_assign_overlap_square_16bots.launch" "test_orphan_square.launch" "../" "test_octsq_12bots.launch" "test_assign_overlap_square.launch" "test_move_backwards_5bots.launch" "test_square_2bots.launch" "test_assign_overlap_square_14bots.launch" "test_square_4bots.launch" "./" "one_controller.launch")
+
+ ("/home/yang/code/icra15/" (21535 10927) "paper.tex" "paper.aux" "figs/" "drawings/" "../" "master.bib" "paper.tex.bak" "auto/" "paper.bbl" "paper.pdf" "paper.log" "paper.dvi" "./" "ieeeconf.cls" "paper.blg")
+
+ ("/home/yang/code/catkin_workspace/src/lattice_simulator/" (21536 20689) "settings.cpp" "gpcutil.cpp" "drawercolor.h" "genpoly.cpp" "pathfind.cpp" "segment.cpp" "glutil.h" "apollonius.cpp" "pointnd.cpp" "animate-callback.h" "rectangle.h" "taskreg.h" "gldrawer.h" "taskreg.cpp" "qmutex.h" "ellipse.h" "drawer.h" "triangle.cpp" "normseq.h" "simulator_inspector.h" "point.h" "simulator.cpp" "svgdrawer.cpp" "polygon.cpp" "fig.cpp" "qmutex.cpp" "animate-callback.cpp" "apollonius.h" "task.cpp" "rectangle.cpp" "emptytask.h" "stats.h" "matrix.h" "package.xml" "simulator_monitor.cpp" "testLatticeTask.cpp" "halfplane.cpp" "gpcutil.h" "dummy.h" "animate-gl.cpp" "ilutil.cpp" "halfplane.h" "simulatedrobot.h" "simulator_monitor.h" "timer.h" "gldrawer.cpp" "task.h" "point.cpp" "emptytask.cpp" "faststats.cpp" "ellipse.cpp" "../" "uniseq.h" "randseq.h" "svgdrawer.h" "matrix.cpp" "triangle.h" "commit.h" "timer.cpp" "segment.h" "simulatedrobot.cpp" "normseq.cpp" "md5.h" "unionfind.cpp" "simulator_inspector.cpp" "drawercolor.cpp" "settings.h" "transform.cpp" "config.h" "transform.h" "ilutil.h" "fig.h" "animate.h" ".simulator.h.swp" "fig-enums.h" "faststats.h" "simulator.h" "testLatticeTask.h" "util.cpp" "polygon.h" "glutil.cpp" "unionfind.h" "./" "drawlgtask.cpp" "animate-gl.h" "stats.cpp" "uniseq.cpp" "circle.h" "animate.cpp" "drawer.cpp" "pointnd.h" "util.h" "pathfind.h" "config.cpp" "CMakeLists.txt" "genpoly.h" "md5.cpp" "circle.cpp")
+
+ ("/home/yang/code/catkin_workspace/src/lattice_controller/" (21536 17791) "settings.cpp" "gpcutil.cpp" "drawercolor.h" "genpoly.cpp" "robot.cpp" "pathfind.cpp" "segment.cpp" "glutil.h" "apollonius.cpp" "pointnd.cpp" "animate-callback.h" "rectangle.h" "taskreg.h" "gldrawer.h" "authority.cpp" "taskreg.cpp" "qmutex.h" "robotdraw.o" "ellipse.h" "drawer.h" "triangle.cpp" "normseq.h" "latticegraph.cpp" "apollonius.o" "point.h" "svgdrawer.cpp" "polygon.cpp" "fig.cpp" "qmutex.cpp" "monitor.h" "lattice/" "animate-callback.cpp" "apollonius.h" "task.cpp" "rectangle.cpp" "message.h" "emptytask.h" "stats.h" "message.cpp" "matrix.h" "package.xml" "latticegraph.h" "md5.o" "halfplane.cpp" "monitor.cpp" "gpcutil.h" "dummy.h" "autorobot.o" "animate-gl.cpp" "ilutil.cpp" "halfplane.h" "timer.h" "gldrawer.cpp" "task.h" "point.cpp" "emptytask.cpp" "faststats.cpp" "ellipse.cpp" "../" "uniseq.h" "diffdrive.cpp" "randseq.h" "svgdrawer.h" "matrix.cpp" "triangle.h" "commit.h" "timer.cpp" "BipartiteGraph.cpp" "segment.h" "diffdrive.h" "controller.cpp" "normseq.cpp" "md5.h" "unionfind.cpp" "drawercolor.cpp" "Hungarian.h" "settings.h" "Hungarian.cpp" "transform.cpp" "config.h" "transform.h" "ilutil.h" "fig.h" "animate.h" "fig-enums.h" "faststats.h" "util.cpp" "polygon.h" "glutil.cpp" "robotdraw.h" "unionfind.h" "./" "drawlgtask.cpp" "BipartiteGraph.h" "controller.h" "animate-gl.h" "robotdraw.cpp" "stats.cpp" "authority.h" "uniseq.cpp" "robot.h" "circle.h" "launch/" "animate.cpp" "drawer.cpp" "pointnd.h" "util.h" "pathfind.h" "config.cpp" "CMakeLists.txt" "genpoly.h" "md5.cpp" "circle.cpp" "BgMatrix.h")
+
+ ("/home/yang/code/catkin_workspace/" (21535 37924) "markup.pyc" "devel/" "generate_saved_pos.py" "bugs/" "build/" ".catkin_workspace" "initialpositions.txt" "set_launchfile_with_gdb.py" "rviz/" "savedpositions.txt" "src/" "robotsposes.txt" "robotsposes.txt~" "../" "read_roslog.py" "launchfile_generator.py" "README.md" "generate_shell_in.py" "generate_rand_pos.py" "generate_gazebo_launch.py" "markup.py" "./" "plot_robotsposes.py")
+
+ ("/home/yang/code/icra14/" (21530 29448) "formsquare.tex" "paper.tex" "figs/" "octagonsquare.tex" "../" "master.bib" "boundedmovingrange.tex" "./" "ieeeconf.cls" "graphs/")
+
+ ("/home/yang/code/catkin_workspace/src/lattice_msgs/msg/" (21525 8956) "Observation.msg" "ControllerInput.msg" "RobotRole.msg" "../" "./" "MatchingEntry.msg" "RobotMessage.msg" "ControllerOutput.msg" "RobotMotion.msg")
+
+ ("/home/yang/codelib/" (21525 806) ".git/" "adobe/" "../" "prac/" "cci/" "README.md" ".gitignore" "amazon/" "google/" "./")
+
+ ("/home/yang/code/catkin_workspace/devel/include/lattice_msgs/" (21519 37108) "RobotMessage.h" "RobotRole.h" "Observation.h" "ControllerOutput.h" "MatchingEntry.h" "ViewData.h" "../" "ControllerInput.h" "./" "RobotMotion.h")
+
+ ("/home/yang/code/catkin_workspace/src/gazebo_simulator/model/meshes/" (21524 32917) "create_body.dae" "../" "./")
+
+ ("/home/yang/code/catkin_workspace/src/robot_inspector/src/" (21524 38316) "robot_inspector.cpp" "../" "./" "robot_inspector.h")
+
+ ("/home/yang/code/catkin_workspace/devel/" (21521 64107) "include/" "setup.zsh" "setup.sh" "share/" "lib/" "_setup_util.py" "etc/" ".rosinstall" "../" "setup.bash" ".catkin" "./" "env.sh")
+
+ ("/home/yang/code/catkin_workspace/src/lattice_msgs/" (21519 30662) "package.xml" "../" "./" "msg/" "CMakeLists.txt")
+
+ ("/home/yang/codelib/cci/" (21518 30729) "1-3-ispermutation.cpp" "1-4-replace_whitespace.cpp" "9-6-n_pairs_parentheses.cpp" "9-2-robot_paths.cpp" "1-2-reverse_string.cpp" "9-5-permutations.cpp" "9-10-boxstack.cpp" "1-6-rotate_matrix.cpp" "1-5-compress_repeated_string.cpp" "9-8-makechange.cpp" "9-4-powerset.cpp" "1-8-is_rotation.cpp" "9-9-place_queues.cpp" "../" "a.out" "9-1-count_ways.cpp" ".gitignore" "./" "9-7-paintfill.cpp" "1-1-uniquechars.cpp")
+
+ ("/home/yang/Public/" (21515 34774) "testjulia.jl" "testsmartptr.cpp" "2014-07-09-151445_885x897_scrot.png" "testconstref.cpp" "testyamlcpp.cpp" "testmapptr.cpp" "testcpp.cpp" "../" "a.out" "testmismatch.cpp" "testlist_vector.cpp" "testarray.cpp" "./")
+
+ ("/opt/" (21475 43884) "Adobe/" "sublime_text/" "nuvolaplayer/" "../" "google/" "./" "ros/")
+
+ ("/opt/ros/" (21262 40182) "hydro/" "../" "./")
+
+ ("/opt/ros/hydro/" (21440 7724) "include/" "setup.zsh" "setup.sh" "share/" "lib/" "_setup_util.py" "bin/" "etc/" ".rosinstall" "../" "setup.bash" ".catkin" "./" "env.sh")
+
+ ("/opt/ros/hydro/share/" (21290 10478) "turtle_tf/" "vision_opencv/" "urdf/" "tf2_bullet/" "shape_msgs/" "libccd/" "collada_parser/" "octomap_msgs/" "laser_assembler/" "filters/" "rosnode/" "actionlib_msgs/" "smclib/" "gazebo_plugins/" "turtle_actionlib/" "driver_base/" "robot/" "random_numbers/" "moveit_ros_planning/" "librviz_tutorial/" "moveit_ros_benchmarks_gui/" "rospy/" "geometry_msgs/" "kdl_parser/" "rosgraph/" "stage_ros/" "message_filters/" "stdr_server/" "rosbag_migration_rule/" "roscpp/" "srdfdom/" "tf2/" "rqt_bag/" "costmap_2d/" "stdr_samples/" "message_generation/" "bfl/" "image_transport_plugins/" "rqt_reconfigure/" "openslam_gmapping/" "rqt_gui_cpp/" "eigen_stl_containers/" "stdr_msgs/" "rqt_robot_monitor/" "viz/" "urdfdom_headers/" "robot_pose_ekf/" "moveit_ros_move_group/" "control_msgs/" "dynamic_reconfigure/" "rqt_robot_steering/" "pluginlib/" "moveit_resources/" "rosmaster/" "roswtf/" "stereo_msgs/" "tf2_msgs/" "stdr_launchers/" "smach_ros/" "ros_full/" "rqt_topic/" "executive_smach/" "eigen_conversions/" "mobile/" "compressed_image_transport/" "roslaunch/" "tf2_py/" "camera_calibration_parsers/" "rosparam/" "rqt_pose_view/" "roscreate/" "desktop/" "rqt_common_plugins/" "desktop_full/" "genmsg/" "pluginlib_tutorials/" "laser_geometry/" "image_proc/" "rqt_web/" "pr2_mechanism_msgs/" "interactive_marker_tutorials/" "amcl/" "std_srvs/" "resource_retriever/" "console_bridge/" "visualization_tutorials/" "stdr_simulator/" "ros_base/" "gmapping/" "driver_common/" "rqt_launch/" "rostime/" "stdr_parser/" "rosservice/" "moveit_ros_benchmarks/" "moveit_fake_controller_manager/" "python_qt_binding/" "base_local_planner/" "fcl/" "camera_calibration/" "rqt_tf_tree/" "image_common/" "actionlib_tutorials/" "rosbag/" "voxel_grid/" "map_server/" "navigation/" "rqt_plot/" "doc/" "geometry_tutorials/" "stdr_robot/" "rosclean/" "moveit_ros_visualization/" "polled_camera/" "move_base_msgs/" "class_loader/" "household_objects_database_msgs/" "rqt_gui/" "rospy_tutorials/" "rqt_console/" "rqt_dep/" "sensor_msgs/" "rosmake/" "collada_urdf/" "geometry/" "rqt_top/" "depth_image_proc/" "rosdoc_lite/" "diagnostic_common_diagnostics/" "gencpp/" "qt_gui_py_common/" "rqt_runtime_monitor/" "pr2_moveit_tutorials/" "rviz/" "common-lisp/" "pr2_moveit_plugins/" "moveit_planners_ompl/" "moveit_commander/" "rosunit/" "tf/" "rosboost_cfg/" "nav_core/" "rosconsole_bridge/" "rqt_logger_level/" "rosout/" "moveit_ros_planning_interface/" "pcl_conversions/" "nodelet_tutorial_math/" "diagnostic_aggregator/" "self_test/" "rqt_shell/" "tf2_ros/" "diagnostic_msgs/" "moveit_planners/" "rqt_robot_dashboard/" "rqt_image_view/" "perception/" "perception_pcl/" "navfn/" "rviz_python_tutorial/" "pr2_controllers_msgs/" "cv_bridge/" "urdfdom/" "rosmsg/" "rostest/" "urdf_parser_plugin/" "rqt_service_caller/" "rotate_recovery/" "laser_filters/" "pcl_msgs/" "robot_model/" "stdr_gui/" "rqt_gui_py/" "moveit_ros_manipulation/" "move_base/" "diagnostics/" "rqt_bag_plugins/" "pcl_ros/" "roslib/" "qt_gui_app/" "moveit_setup_assistant/" "manipulation_msgs/" "mk/" "image_rotate/" "rosbag_storage/" "roslisp/" "nodelet_core/" "moveit_pr2/" "rqt_py_common/" "image_view/" "image_geometry/" "moveit_ros_perception/" "rqt_srv/" "stdr_resources/" "qt_dotgraph/" "visualization_msgs/" "cpp_common/" "moveit_core/" "timestamp_tools/" "turtlesim/" "carrot_planner/" "dwa_local_planner/" "rosgraph_msgs/" "media_export/" "catkin/" "object_recognition_msgs/" "tf2_geometry_msgs/" "bond/" "common_msgs/" "angles/" "python_orocos_kdl/" "tf_conversions/" "topic_tools/" "orocos_kdl/" "rostopic/" "diagnostic_updater/" "ros_comm/" "moveit_full/" "geometry_experimental/" "roscpp_serialization/" "theora_image_transport/" "qt_gui_core/" "smach_msgs/" "move_slow_and_clear/" "pr2_description/" "qt_gui_cpp/" "gazebo_ros_pkgs/" "genlisp/" "joint_state_publisher/" "gazebo_msgs/" "moveit_ros_robot_interaction/" "stage/" "roscpp_traits/" "interactive_markers/" "octomap/" "rospack/" "diagnostic_analysis/" "rqt_moveit/" "moveit_ros/" "compressed_depth_image_transport/" "rqt_py_console/" "roscpp_tutorials/" "nav_msgs/" "warehouse_ros/" "urdf_tutorial/" "visualization_marker_tutorials/" "actionlib/" "tf2_tools/" "moveit_plugins/" "rqt_msg/" "kdl_conversions/" "image_transport/" "rqt_publisher/" "image_pipeline/" "rqt_robot_plugins/" "clear_costmap_recovery/" "ompl/" "xmlrpcpp/" "map_msgs/" "fake_localization/" "nodelet_topic_tools/" "moveit_msgs/" "rqt_action/" "qt_gui/" "tf2_kdl/" "rqt_rviz/" "eigen/" "OpenCV/" "pr2_moveit_config/" "ros/" "rosbuild/" "bondcpp/" "moveit_ros_warehouse/" "message_runtime/" "trajectory_msgs/" "rosbash/" "smach/" "bond_core/" "rqt_nav_view/" "shape_tools/" "moveit_full_pr2/" "rviz_plugin_tutorials/" "laser_pipeline/" "std_msgs/" "rosconsole/" "geometric_shapes/" "xacro/" "gazebo_ros/" "rqt_graph/" "camera_info_manager/" "stereo_image_proc/" "common_tutorials/" "roslang/" "moveit_simple_controller_manager/" "nodelet/" "ros_tutorials/" "simulators/" "genpy/" "moveit_ikfast/" "opencv2/" "robot_state_publisher/" "../" "./")
+
+ ("/opt/ros/hydro/share/std_msgs/" (21440 7729) "package.xml" "../" "cmake/" "./" "msg/")
+
+ ("/home/yang/Templates/" (21307 25357) "../" "./")
+
+ ("/home/yang/code/catkin_workspace/src/lattice_controller/lattice/" (21510 30547) "octsq.lg" "trihexsq.lg" "hexsq.lg" "hex.lg" "../" "single-node.lg" "./" "sq.lg" "finite_p_letter.lg")
+
+ ("/home/yang/.gvfs/SFTP for song24 on ares.cse.sc.edu/acct/s1/song24/public_html/bootstrap-3.1.1/dist/css/" (21506 32345) "bootstrap-theme.min.css" "bootstrap.min.css" "bootstrap.css" "bootstrap-theme.css" "bootstrap-theme.css.map" "bootstrap.css.map" "../" "./")
+
+ ("/home/yang/.gvfs/SFTP for song24 on ares.cse.sc.edu/acct/s1/song24/public_html/bootstrap-3.1.1/dist/js/" (21506 32350) "bootstrap.js" "bootstrap.min.js" "../" "./")
+
+ ("/home/yang/.gvfs/SFTP for song24 on ares.cse.sc.edu/acct/s1/song24/public_html/" (21506 32325) "controls-wmp-bg.png" "controls-wmp.png" "videos/" "research.html~" "index.html" "controls-ted.png" "controls.fw.png" "tex/" "controls.svg" "images/" "background.png" "main.css" "bootstrap-3.1.1/" ".git/" "mediaelementplayer.css" "research.html" "mediaelement-and-player.min.js" "bigplay.fw.png" ".gitignore" "loading.gif" "papers/" "bigplay.png" "bigplay.svg" "font-awesome-4.1.0/" "controls.png" "../" "./")
+
+ ("/home/yang/.gvfs/SFTP for song24 on ares.cse.sc.edu/acct/s1/song24/public_html/bootstrap-3.1.1/dist/" (21487 45795) "js/" "fonts/" "css/" "../" "./")
+
+ ("/home/yang/.gvfs/SFTP for song24 on ares.cse.sc.edu/acct/s1/song24/public_html/bootstrap-3.1.1/" (21487 45796) "CNAME" "LICENSE" "Gruntfile.js" "test-infra/" "docs/" "composer.json" "js/" "fonts/" ".gitignore" "CONTRIBUTING.md" "grunt/" "less/" "_config.yml" ".gitattributes" "bower.json" "package.json" "dist/" "README.md" ".editorconfig" ".travis.yml" "../" "./")
+
+ ("/home/yang/code/catkin_workspace/src/" (21506 13661) "create/" "robot_inspector/" "lattice_msgs/" "lattice_controller/" "../" "gazebo_simple/" "gazebo_simulator/" "./" "CMakeLists.txt" "lattice_simulator/")
+
+ ("/home/yang/code/catkin_workspace/src/gazebo_simulator/model/" (21506 13661) "meshes/" "../" "model.sdf" "model-1_3.sdf" "model.config" "model-1_2.sdf" "./" "materials/" "model-1_4.sdf")
+
+ ("/home/yang/code/catkin_workspace/src/gazebo_simulator/launch/" (21506 13661) "multiple.launch" "../" "./" "one_robot.launch")
+
+ ("/home/yang/code/catkin_workspace/src/gazebo_simulator/include/" (21506 13661) "../" "gazebo_simulator.h" "./")
+
+ ("/home/yang/code/catkin_workspace/src/gazebo_simulator/" (21506 13661) "include/" "package.xml" "src/" "../" "./" "model/" "launch/" "CMakeLists.txt")
+
+ ("/home/yang/code/catkin_workspace/src/gazebo_simulator/src/" (21506 13661) "../" "./" "gazebo_simulator.cpp")
+
+ ("/home/yang/code/" (21506 13662) "catkin_workspace/" "dars/" ".git/" "notes.tex" "slides_icra2014/" "../" "icra15/" "finite_design/" ".gitignore" "./" "formation/" "icra14/")
+
+ ("/home/yang/Labwiki/scarrdoc/git/" (21503 22575) "creating-a-repository.md" "../" "./" "bash-and-git.md" "accessing-git-server.md")
+
+ ("/home/yang/Labwiki/scarrdoc/" (21503 22575) ".git/" "template.html" "update-website" "screen-and-irssi.md" "git/" "../" "post-receive" ".gitignore" "./")
+
+ ("/home/yang/Labwiki/" (21466 50947) "../" "./" "scarrdoc/")
+
+ ("/home/yang/.ssh/" (21502 23605) "id_rsa" "known_hosts" "../" "config" "id_rsa.pub" "./")
+
+ ("/home/yang/gazebo_simple/src/" (21500 825) "../" "./" "gazebo_simple_node.cpp")
+
+ ("/home/yang/code/catkin_workspace/src/gazebo_simple/launch/" (21500 279) "multiple.launch" "four_robots_world.launch" "../" "./" "one_robot.launch")
+
+ ("/home/yang/code/catkin_workspace/src/gazebo_simulator/include/gazebo_simple/" (21498 13425) "../" "./")
+
+ ("/home/yang/gazebo_simple/" (21499 35245) ".git/" "include/" "package.xml" "src/" "../" ".gitignore" "./" "model/" "launch/" "CMakeLists.txt")
+
+ ("/home/yang/code/catkin_workspace/src/gazebo_simple/model/" (21499 35386) "meshes/" "../" "model.sdf" "model-1_3.sdf" "model.config" "model-1_2.sdf" "./" "materials/" "model-1_4.sdf")
+
+ ("/home/yang/code/catkin_workspace/src/gazebo_simple/" (21499 34454) "include/" "package.xml" "src/" "../" "./" "model/" "launch/" "CMakeLists.txt")
+
+ ("/home/yang/code/catkin_workspace/src/create/" (21498 12833) "meshes/" "../" "model.sdf" "model-1_3.sdf" "model.config" "model-1_2.sdf" "./" "materials/" "model-1_4.sdf")
+
+ ("/home/yang/code/icra15/drawings/" (21491 47295) "../" "./")
+
+ ("/home/yang/cpp/" (21491 37032) "9-10-boxstack.cpp" "../" "a.out" "./")
+
+ ("/home/yang/code/paper/" (21362 32359) "formsquare.tex" "paper.tex" "figs/" "octagonsquare.tex" "../" "master.bib" ".gitignore" "boundedmovingrange.tex" "./" "ieeeconf.cls" "graphs/")
+
+ ("/home/yang/julia/" (21490 30270) ".git/" "pyplot_example.jl" "../" "./")
+
+ ("/home/yang/.julia/v0.2/Cairo/deps/" (21487 55729) "build.jl" "../" "./")
+
+ ("/home/yang/.julia/v0.2/Cairo/" (21487 55729) ".git/" "samples/" "REQUIRE" "src/" "test/" "../" "README.md" ".gitignore" "LICENSE.md" "deps/" "./")
+
+ ("/home/yang/.julia/v0.2/" (21490 29147) "REQUIRE" ".cache/" "FixedPointNumbers/" "Cairo/" "IniFile/" "URIParser/" "BinDeps/" ".trash/" "Gaston/" "Tk/" "../" "Winston/" "SHA/" "./" "PyCall/" "Color/" "PyPlot/" "METADATA/")
+
+ ("/home/yang/.julia/" (21487 55724) ".cache/" "v0.2/" "../" "./")
+
+ ("/home/yang/code/slides_icra2014/" (21482 30219) ".git/" "slides.pdf" "figs/" "beamerinnerthemeAAUsimple.sty" "octagonsq1000009v12sr55.mp4" "beamerouterthemeAAUsimple.sty" "hexagon10.mp4" "../" "sc_logo.pdf" "makeslides.sh" "beamerthemeAAUsimple.sty" "beamercolorthemeAAUsimple.sty" "README.md" ".gitignore" "hexagon1000009v12sr50.mp4" "square10.mp4" "./" "cover.pdf" "slides.tex" "sc_logo_circle.pdf")
+
+ ("/home/yang/code/catkin_workspace/src/robot_inspector/" (21482 30217) "include/" "package.xml" "src/" "../" "./" "CMakeLists.txt")
+
+ ("/home/yang/code/catkin_workspace/devel/include/" (21262 45820) "lattice_msgs/" "../" "./")
+
+ ("/home/yang/code/catkin_workspace/src/robot_inspector/include/robot_inspector/" (21453 35185) "../" "./")
+
+ ("/home/yang/code/catkin_workspace/src/robot_inspector/include/" (21453 35185) "robot_inspector/" "../" "./")
+
+ ("/home/yang/.rviz/" (21263 44452) "persistent_settings" "../" "default.rviz" "./")
+
+ ("/home/yang/Desktop/icra/" (21359 63929) "AAUgraphics/" "presentation.tex" "global/" "beamerinnerthemeAAUsimple.sty" "beamerouterthemeAAUsimple.sty" "../" "presentation.pdf" "makeslides.sh" "beamerthemeAAUsimple.sty" "beamercolorthemeAAUsimple.sty" "AAUsimpletheme.tex" "./" "local/")
+
+ ("/home/yang/Downloads/media9/" (21370 54714) "doc/" "media9.sty" "example.log" "javascript/" "players/" "../" "example.tex" "README" "example.pdf" "./")
+
+ ("/home/yang/latex/slides_icra2014/" (21380 54391) ".git/" "octsq1000009v12sr55.mp4" "slides.pdf" "hexagon1000009v12.mp4" "figs/" "beamerinnerthemeAAUsimple.sty" "octagonsq1000009v12sr55.mp4" "beamerouterthemeAAUsimple.sty" "hexagon10.mp4" "../" "sc_logo.pdf" "makeslides.sh" "beamerthemeAAUsimple.sty" "beamercolorthemeAAUsimple.sty" "README.md" ".gitignore" "hexagon1000009v12sr50.mp4" "square10.mp4" "./" "cover.pdf" "slides.tex" "sc_logo_circle.pdf")
+
+ ("/home/" (21262 37240) "../" "yang/" "./")
+
+ ("/home/yang/latex/" (21370 22412) "slides_icra2014/" "../" "./")
+
+ ("/home/yang/Downloads/" (21370 54631) "2082-2255-1-PB.pdf" "1929921.pdf" "Cucumber.steps.txt" "video.tex" "7226087.pdf" "B.E.tar.gz" "python-mode.el-6.1.3.tar.gz" "arbotix-manual-draft2.pdf" "google-chrome-stable_current_i386.deb" "Pmw-2.0.0.tar.gz" "yangsong.pdf" "easygui-0.96.zip" "Pmw-2.0.0/" "easygui_demo_registration_app.zip" "DARS_2014_RPS_Template(LaTeX).zip" "All Audio - CAGED Blues Audio Examples.zip" "L92_InverseKinematics.ppt" "easygui_demo_registration_app/" "transcript_enrollmentproof.pdf" "NVIDIA-Linux-x86-331.49.run" "haml-mode-master.zip" "ACA_Marketplace_Exchange_Acknowledgement_of_Receipt.pdf" "atom-mac.zip" "7201526.pdf" "centgraf.EasyToolkitsLecture.ppt" "ruby-1.9.3-p545.tar.gz" "NSF_Travel_Support_Request_Form_Student.docx" "9780387233253-c2.pdf" "../" "gabrielelanaro-emacs-for-python-a52742f/" "sublime-text_build-3059_i386.deb" "easygui-0.96/" "ACA_Marketplace_Exchange_Notice_New_Hires.pdf" "DARS2014_CFP_1st.pdf" "media9/" "gabrielelanaro-emacs-for-python-a52742f.zip" "764506956.pdf" "presentation_1.zip" "ruby-1.9.3-p545/" "beamerthemeprogressbar.tar.gz" "./" "Yang.Song.USC.pdf" "haml-mode-master/" "DARS_2014_RPS_Template(LaTeX)/" "media9.zip")
+
+ ("/home/yang/code/slides_icra2014/figs/" (21370 22424) "initial-formation.eps" "exptime.eps" "expqual-eps-converted-to.pdf" "initial-formation-eps-converted-to.pdf" "squarelattice.pdf" "formation-100-eps-converted-to.pdf" "hexagonlattice.pdf" "octagonsquare-eps-converted-to.pdf" "octagonsquare.eps" "hex-eps-converted-to.pdf" "exptime-eps-converted-to.pdf" "../" "final-formation.eps" "hex.eps" "formation-100.eps" "final-formation-eps-converted-to.pdf" "./" "expqual.eps")
+
+ ("/home/yang/Desktop/slides/" (21360 65342) "beamerouterthemeprogressbarjma.sty" "presentation.tex" "beamerinnerthemeprogressbar.sty" "images/" "../" "beamerouterthemeprogressbar.sty" "presentation.pdf" "beamerthemeprogressbar.sty" "makeslides.sh" "beamercolorthemeprogressbar.sty" "beamerfontthemeprogressbar.sty" "./")
+
+ ("/home/yang/ruby/ScheduleProject/db/migrate/" (21332 20590) "20140405192033_create_tacommitments.rb" "../" "20140302210034_create_meetings.rb" "./")
+
+ ("/home/yang/ruby/ScheduleProject/app/views/tacommitments/" (21332 22606) "_tacommitment_form.html.haml" "edit.html.haml" "../" "show.html.haml" "index.html.haml" "new.html.haml" "./" "_tacommitment.html.haml")
+
+ ("/home/yang/ruby/" (21347 61199) "generate_csv.rb" "testfile.csv" "p1.rb" "output.txt" "userstory.pdf" "Fall14report2014.02.18.txt" "2014-04-08-210247_1912x653_scrot.png" "2014-04-08-210258_1919x866_scrot.png" "2014-04-08-210236_1903x1020_scrot.png" "read_csv.rb" "myrottenpotatoes/" "bowling.rb" "ysong_April_13.zip" "p4_9.rb" "seeds.txt" "test1_song.zip" "../" "lo-fi-ta.pdf" "p7.rb" "p2.rb" "hw2.rb" "p3.rb" "course_schedule.csv" "README.md" "hw3_song.zip" ".gitignore" "ClassScheduleFall.2014.02.18.txt" "p10.rb" "bowling_spec.rb" "April_20_ysong.zip" "lo-fi-meeting.pdf" "ScheduleProject/" "./" "2014-04-08-123156_1909x1013_scrot.png" "sub.rb")
+
+ ("/home/yang/ruby/ScheduleProject/app/models/" (21332 23087) "tacommitment.rb" "meeting.rb" ".keep" "../" "./" "concerns/")
+
+ ("/home/yang/ruby/ScheduleProject/db/" (21332 22575) "seeds.rb" "schema.rb" "migrate/" "development.sqlite3" "../" "test.sqlite3" "./")
+
+ ("/home/yang/ruby/ScheduleProject/features/" (21323 12433) "tacommitment.feature" "support/" "../" "step_definitions/" "./")
+
+ ("/home/yang/Desktop/icra/AAUgraphics/" (20894 28252) "aau_logo_new_circle.eps" "aau_logo_new_circle.pdf" "aau_waves.eps" "aau_logo_new.pdf" "../" "aau_logo_new.eps" "aau_waves.pdf" "./")
+
+ ("/home/yang/ruby/ScheduleProject/config/" (21313 34396) "locales/" "initializers/" "database.yml" "routes.rb" "cucumber.yml" "environment.rb" "environments/" "../" "boot.rb" "./" "application.rb")
+
+ ("/home/yang/ruby/ScheduleProject/app/controllers/" (21316 40332) "../" "tacommitments_controller.rb" "application_controller.rb" "./" "concerns/" "meetings_controller.rb")
+
+ ("/home/yang/ruby/ScheduleProject/app/views/meetings/" (21316 39580) "edit.html.haml" "../" "show.html.haml" "_meeting_form.html.haml" "_meeting.html.haml" "index.html.haml" "new.html.haml" "./")
+
+ ("/home/yang/ruby/ScheduleProject/app/mailers/" (21267 39500) ".keep" "../" "./")
+
+ ("/home/yang/ruby/ScheduleProject/vendor/" (21267 39500) "assets/" "../" "./")
+
+ ("/home/yang/ruby/ScheduleProject/" (21315 4531) "vendor/" ".bundle/" "script/" "Gemfile" "public/" "tmp/" "db/" "lib/" "Gemfile.lock" "config.ru" "bin/" "test/" "../" "config/" "features/" "app/" ".gitignore" "log/" "Rakefile" "./" "README.rdoc")
+
+ ("/home/yang/ruby/ScheduleProject/app/views/" (21312 19526) "../" "tacommitments/" "layouts/" "./" "meetings/")
+
+ ("/home/yang/ruby/myrottenpotatoes/app/views/layouts/" (21312 13745) "../" "./" "application.html.haml")
+
+ ("/home/yang/ruby/ScheduleProject/app/views/layouts/" (21312 14856) "application.html.erb" "../" "./")
+
+ ("/home/yang/ruby/ScheduleProject/app/" (21267 39500) "views/" "mailers/" "assets/" "models/" "../" "helpers/" "controllers/" "./")
+
+ ("/home/yang/ruby/myrottenpotatoes/app/views/movies/" (21312 13389) "_movie.html.haml" "login_form.html.haml" "edit.html.haml" "../" "_movie_form.html.haml" "show.html.haml" "index.html.haml" "new.html.haml" "./")
+
+ ("/home/yang/ruby/myrottenpotatoes/config/" (21312 13280) "locales/" "initializers/" "database.yml" "routes.rb" "environment.rb" "environments/" "../" "boot.rb" "./" "application.rb")
+
+ ("/home/yang/ruby/myrottenpotatoes/" (21312 11788) ".git/" "vendor/" ".bundle/" "Gemfile" "public/" "tmp/" "db/" "lib/" "Gemfile.lock" "config.ru" "bin/" "../" "config/" "app/" "README.md" ".gitignore" "log/" "Rakefile" "./" "README.rdoc")
+
+ ("/home/yang/ruby/myrottenpotatoes/app/controllers/" (21312 13156) "sessions_controller.rb" "movies_controller.rb" "../" "application_controller.rb" "./" "concerns/")
+
+ ("/home/yang/python/" (21308 50176) "tkinterexample.py" "easygui.pyc" "demo.html" "sakura.jpg" "test1.py" "filelist.py" "../" "test2.py" "PythonUtilities/" "./" "easygui.py" "guiexample.py")
+
+ ("/home/yang/Downloads/easygui_demo_registration_app/" (21308 48806) "register.py" "easygui.pyc" "../" "./" "easygui.py" "registration.db")
+
+ ("/home/yang/ruby/myrottenpotatoes/app/views/" (21312 12503) "../" "movies/" "layouts/" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
