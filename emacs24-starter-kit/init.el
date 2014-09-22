@@ -39,11 +39,6 @@
   (package-initialize)
   (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
   )
-(add-to-list 'load-path "~/emacs24-starter-kit/emms/")
-
-(require 'emms-setup)
-(emms-standard)
-(emms-default-players)
 ;; This is monokai-like theme
 ;;(load-file "~/.emacs.d/color-theme-monokai.el")
 ;;(color-theme-monokai)
