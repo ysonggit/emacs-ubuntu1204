@@ -35,6 +35,7 @@
 (global-set-key (kbd "C-<") 'douban-music-play-previous)
 (global-set-key (kbd "C-?") 'douban-music-play-next-refresh)
 
+;; define keybind Ctrl-c p to swap buffers in the same window
 (defun swap-buffers-in-windows ()
   "Put the buffer from the selected window in next window, and vice versa"
   (interactive)
@@ -46,6 +47,9 @@
     (set-window-buffer this other-buffer)
     )
   )
+(global-set-key (kbd "C-c p") 'swap-buffers-in-windows)
+
+
 
 (when (>= emacs-major-version 24)
   (require 'package)
@@ -67,5 +71,4 @@
 (setq browse-url-browser-function 'w3m-browse-url)
 (autoload 'w3m-browse-url "w3m" "Ask a WWW browser to show a URL." t)
 
-(require 'buffer-move)
 ;;; init.el ends here
