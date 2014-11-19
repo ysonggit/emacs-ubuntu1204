@@ -4,6 +4,8 @@
 ;;
 ;; This is the first thing to get loaded.
 ;;
+(require 'printing)
+(setq ps-print-color-p "black-white")
 
 ;; load Org-mode from source when the ORG_HOME environment variable is set
 (when (getenv "ORG_HOME")
@@ -33,6 +35,18 @@
 (global-set-key (kbd "C-<") 'douban-music-play-previous)
 (global-set-key (kbd "C-?") 'douban-music-play-next-refresh)
 
+(defun swap-buffers-in-windows ()
+  "Put the buffer from the selected window in next window, and vice versa"
+  (interactive)
+  (let* ((this (selected-window))
+     (other (next-window))
+     (this-buffer (window-buffer this))
+     (other-buffer (window-buffer other)))
+    (set-window-buffer other this-buffer)
+    (set-window-buffer this other-buffer)
+    )
+  )
+
 (when (>= emacs-major-version 24)
   (require 'package)
   (add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
@@ -45,4 +59,13 @@
 (add-to-list 'custom-theme-load-path "~/emacs24-starter-kit/themes")
 (load-theme 'monokai)
 
+;; Folding macros and environments in tex using C-c C-o C-f	
+(add-hook 'LaTeX-mode-hook (lambda ()
+                             (TeX-fold-mode 1)))
+
+
+(setq browse-url-browser-function 'w3m-browse-url)
+(autoload 'w3m-browse-url "w3m" "Ask a WWW browser to show a URL." t)
+
+(require 'buffer-move)
 ;;; init.el ends here
