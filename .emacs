@@ -1,4 +1,5 @@
 
+;; Move buffer 
 ;; (setq ansi-color-for-comint-mode t) 
 ;; (customize-group 'ansi-colors) 
 ;; (kill-this-buffer);关闭customize窗口 
@@ -463,6 +464,9 @@
   ;; (autoload 'douban-music "douban-music-mode" nil t)
   (add-to-list 'load-path "~/emacs24-starter-kit/")
   (load-file "~/emacs24-starter-kit/init.el")
+  (load-file "~/.emacs.d/html-check-frag.el")
+  (require 'html-check-frag)
+  (add-hook 'html-mode-hook (lambda () (html-check-frag-mode 1)))
 )
 
 (when (< emacs-major-version 24)

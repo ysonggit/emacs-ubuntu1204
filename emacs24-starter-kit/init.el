@@ -48,7 +48,9 @@
     )
   )
 (global-set-key (kbd "C-c p") 'swap-buffers-in-windows)
-
+(load-file "~/emacs24-starter-kit/elpa/langtool-20140330.316/langtool.el")
+(require 'langtool)
+(setq langtool-language-tool-jar "~/emacs24-starter-kit/LanguageTool-2.7/languagetool.jar")
 
 
 (when (>= emacs-major-version 24)
